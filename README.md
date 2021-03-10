@@ -61,7 +61,7 @@ This repo is built on [Bottom-up-Higher-HRNet](https://github.com/HRNet/HigherHR
 
 The details about preparing the environment and datasets can be referred to [README.md](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation/blob/master/README.md).
 
-Downlaod our pretrained weights from [BaidunYun](https://pan.baidu.com/s/1aifAVwUbfAvRN4ZxrItZxQ)(Password: 8weh) or [GoogleDrive](!https://drive.google.com/drive/folders/13FFvwK7bDZLD4H_toueopbLhJqFjimlu?usp=sharing) to [./models](!./models).
+Downlaod our pretrained weights from [BaidunYun](https://pan.baidu.com/s/1aifAVwUbfAvRN4ZxrItZxQ)(Password: 8weh) or [GoogleDrive](https://drive.google.com/drive/folders/13FFvwK7bDZLD4H_toueopbLhJqFjimlu?usp=sharing) to [./models](!./models).
 
 ### Training and Testing
 
