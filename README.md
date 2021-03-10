@@ -1,7 +1,7 @@
 ## Introduction
-This is the official code of [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](!https://arxiv.org/abs/2012.15175).
+This is the official code of [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175).
 
-This repo is built on [Bottom-up-Higher-HRNet](!https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation.git).
+This repo is built on [Bottom-up-Higher-HRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation.git).
 
 ## Main Results
 ### Results on COCO val2017 without multi-scale test
@@ -59,9 +59,9 @@ This repo is built on [Bottom-up-Higher-HRNet](!https://github.com/HRNet/HigherH
 
 ## Installation
 
-The details about preparing the environment and datasets can be referred to [README.md](!https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation/blob/master/README.md).
+The details about preparing the environment and datasets can be referred to [README.md](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation/blob/master/README.md).
 
-Downlaod our pretrained weights from [BaidunYun](!https://pan.baidu.com/s/1aifAVwUbfAvRN4ZxrItZxQ)(Password: 8weh) or [GoogleDrive](!https://drive.google.com/drive/folders/13FFvwK7bDZLD4H_toueopbLhJqFjimlu?usp=sharing) to [./models](!./models).
+Downlaod our pretrained weights from [BaidunYun](https://pan.baidu.com/s/1aifAVwUbfAvRN4ZxrItZxQ)(Password: 8weh) or [GoogleDrive](!https://drive.google.com/drive/folders/13FFvwK7bDZLD4H_toueopbLhJqFjimlu?usp=sharing) to [./models](!./models).
 
 ### Training and Testing
 
