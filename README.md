@@ -17,7 +17,7 @@ This repo is built on [Bottom-up-Higher-HRNet](https://github.com/HRNet/HigherHR
 | Method             | Backbone | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |
 |--------------------|----------|------------|---------|--------|-------|-------|--------|--------|--------| 
 | HigherHRNet        | HRNet-w32  | 512      |  28.6M  | 47.9   | 69.9  | 87.1  |  76.0  |  65.3  |  77.0  | 
-| HigherHRNet + SWAHR| HRNet-w32  | 512      |  28.6M  | 74.8   | 71.4  | 88.9  |  77.8  |  66.3  |  78.9  | 
+| HigherHRNet + SWAHR| HRNet-w32  | 512      |  28.6M  | 48.0   | 71.4  | 88.9  |  77.8  |  66.3  |  78.9  | 
 | HigherHRNet        | HRNet-w48  | 640      |  63.8M  | 154.3  | 72.1  | 88.4  |  78.2  |  67.8  |  78.3  |
 | HigherHRNet + SWAHR| HRNet-w48  | 640      |  63.8M  | 154.6  | 73.2  | 89.8  |  79.1  |  69.1  |  79.3  |
 
