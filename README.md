@@ -1,5 +1,5 @@
 ## Introduction
-This is the official code of [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175).
+This is the official code of [Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://arxiv.org/abs/2012.15175). This paper has been accepted to CVPR2021.
 
 This repo is built on [Bottom-up-Higher-HRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation.git).
 
