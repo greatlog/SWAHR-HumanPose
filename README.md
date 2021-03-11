@@ -111,6 +111,8 @@ CUDA_VISIBLE_DEVICES=0,1 python tools/dist_train.py \
 ### Testing on your own images
 ```
 python tools/dist_inference.py \
+    --img_dir path/to/your/directory/of/images \
+    --save_dir path/where/results/are/saved \
     --cfg experiments/coco/higher_hrnet/w32_512_adam_lr1e-3.yaml \
     TEST.MODEL_FILE models/pose_coco/pose_higher_hrnet_w32_512.pth \
     TEST.SCALE_FACTOR '[0.5, 1.0, 2.0]'
