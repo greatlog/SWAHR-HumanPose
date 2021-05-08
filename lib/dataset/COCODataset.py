@@ -72,13 +72,13 @@ class CocoDataset(Dataset):
             return os.path.join(
                 self.root,
                 'annotations',
-                'image_info_test-dev2017_nori.json'
+                'image_info_test-dev2017.json'
                 )
         else:
             return os.path.join(
                 self.root,
                 'annotations',
-                'person_keypoints_{}_nori.json'.format(
+                'person_keypoints_{}.json'.format(
                     self.dataset
                 )
             )

@@ -40,6 +40,7 @@ from utils.utils import create_logger
 from utils.utils import get_optimizer
 from utils.utils import save_checkpoint
 from utils.utils import setup_logger
+from utils.utils import get_model_summary
 
 
 def parse_args():
@@ -193,8 +194,8 @@ def main_worker(
         dump_input = torch.rand(
             (1, 3, cfg.DATASET.INPUT_SIZE, cfg.DATASET.INPUT_SIZE)
         )
-        writer_dict['writer'].add_graph(model, (dump_input, ))
-        # logger.info(get_model_summary(model, dump_input, verbose=cfg.VERBOSE))
+        #writer_dict['writer'].add_graph(model, (dump_input, ))
+        logger.info(get_model_summary(model, dump_input, verbose=cfg.VERBOSE))
 
     if cfg.FP16.ENABLED:
         model = network_to_half(model)
